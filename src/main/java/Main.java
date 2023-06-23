@@ -5,5 +5,6 @@ public class Main {
         CalculatorPresenterImpl presenter = new CalculatorPresenterImpl(CalculatorDisplay, calculator);
 
         CalculatorDisplay.setPresenter(presenter);
+        System.out.println("Done!");
     }
 }
